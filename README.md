@@ -21,30 +21,70 @@ Este projeto reúne exemplos práticos, scripts SQL e exercícios desenvolvidos 
 Aprender os fundamentos da linguagem PL/SQL, compreender sua estrutura e aplicar seus principais recursos na manipulação de dados e no desenvolvimento de rotinas no Oracle Database.
 
 📖 Conteúdos estudados
-Conteúdo	Descrição
-Fundamentos PL/SQL	Estrutura de blocos, variáveis e comandos básicos.
-CRUD	Operações de INSERT, SELECT, UPDATE e DELETE.
-Procedures	Criação e execução de procedimentos armazenados.
-Functions	Criação e utilização de funções.
-Parâmetros IN e OUT	Passagem e retorno de parâmetros.
-Estruturas de repetição	Utilização de loops na execução de comandos.
-Parâmetros nomeados	Passagem de argumentos por nome.
-Cursors	Manipulação e processamento de conjuntos de registros.
-Exceptions	Tratamento de erros e exceções.
+
+<table>
+<thead>
+<tr>
+<th>Conteúdo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Fundamentos PL/SQL</strong></td>
+<td>Estrutura de blocos, variáveis e comandos básicos.</td>
+</tr>
+<tr>
+<td><strong>CRUD</strong></td>
+<td>Operações de INSERT, SELECT, UPDATE e DELETE.</td>
+</tr>
+<tr>
+<td><strong>Procedures</strong></td>
+<td>Criação e execução de procedimentos armazenados.</td>
+</tr>
+<tr>
+<td><strong>Functions</strong></td>
+<td>Criação e utilização de funções.</td>
+</tr>
+<tr>
+<td><strong>Parâmetros IN e OUT</strong></td>
+<td>Passagem e retorno de parâmetros.</td>
+</tr>
+<tr>
+<td><strong>Estruturas de repetição</strong></td>
+<td>Utilização de loops na execução de comandos.</td>
+</tr>
+<tr>
+<td><strong>Parâmetros nomeados</strong></td>
+<td>Passagem de argumentos por nome.</td>
+</tr>
+<tr>
+<td><strong>Cursors</strong></td>
+<td>Manipulação e processamento de conjuntos de registros.</td>
+</tr>
+<tr>
+<td><strong>Exceptions</strong></td>
+<td>Tratamento de erros e exceções.</td>
+</tr>
+</tbody>
+</table>
+
 📂 Estrutura do repositório
-text
+
+<pre>
 📦 estudo-plsql
- ┣ 📜 01-comecando_com_plsql.sql
- ┣ 📜 02-crud.sql
- ┣ 📜 03-primeira_procedure.sql
- ┣ 📜 04-usando_funcoes.sql
- ┣ 📜 05-parametro_in_out.sql
- ┣ 📜 06-estrutura_de_repeticao.sql
- ┣ 📜 07-parametros_nomeados.sql
- ┣ 📜 08-cursores.sql
- ┣ 📜 09-exception.sql
- ┣ 📜 10-exception_2.sql
- ┗ 📜 README.md
+┣ 📜 01-comecando_com_plsql.sql
+┣ 📜 02-crud.sql
+┣ 📜 03-primeira_procedure.sql
+┣ 📜 04-usando_funcoes.sql
+┣ 📜 05-parametro_in_out.sql
+┣ 📜 06-estrutura_de_repeticao.sql
+┣ 📜 07-parametros_nomeados.sql
+┣ 📜 08-cursores.sql
+┣ 📜 09-exception.sql
+┣ 📜 10-exception_2.sql
+┗ 📜 README.md
+</pre>
 
 📝 Descrição dos arquivos
 

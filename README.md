@@ -1,53 +1,149 @@
 📚 Estudo PL/SQL: Domine a Linguagem do Banco de Dados Oracle
 
-Repositório dedicado ao aprendizado de PL/SQL (Procedural Language/SQL), linguagem procedural utilizada no Oracle Database para implementar regras de negócio, automatizar operações e desenvolver rotinas armazenadas no banco de dados.
+<div align="center">
 
-Este projeto reúne exemplos práticos e exercícios desenvolvidos durante o curso da Alura.
+<img src="https://img.shields.io/badge/Oracle-PL%2FSQL-red?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle PL/SQL">
+
+<img src="https://img.shields.io/badge/Database-Oracle-orange?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle Database">
+
+<img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue?style=for-the-badge" alt="Em desenvolvimento">
+
+</div>
+
+📌 Sobre o projeto
+
+Repositório dedicado ao aprendizado de PL/SQL (Procedural Language/SQL), linguagem procedural da Oracle que permite desenvolver rotinas, automatizar operações e implementar regras de negócio diretamente no banco de dados.
+
+Este projeto reúne exemplos práticos, scripts SQL e exercícios desenvolvidos durante o curso da Alura.
 
 🎯 Objetivo
 
-Aprender os fundamentos da linguagem PL/SQL, compreendendo sua estrutura e aplicando seus principais recursos na manipulação de dados e desenvolvimento de rotinas no Oracle Database.
+Aprender os fundamentos da linguagem PL/SQL, compreender sua estrutura e aplicar seus principais recursos na manipulação de dados e no desenvolvimento de rotinas no Oracle Database.
 
-📖 Conteúdos abordados
-Fundamentos e estrutura de blocos PL/SQL.
-Operações CRUD (INSERT, SELECT, UPDATE e DELETE).
-Criação e execução de Procedures.
-Utilização de Functions.
-Parâmetros IN e OUT.
-Estruturas de repetição.
-Parâmetros nomeados.
-Utilização de Cursors.
-Tratamento de Exceptions.
-
+📖 Conteúdos estudados
+Conteúdo	Descrição
+Fundamentos PL/SQL	Estrutura de blocos, variáveis e comandos básicos.
+CRUD	Operações de INSERT, SELECT, UPDATE e DELETE.
+Procedures	Criação e execução de procedimentos armazenados.
+Functions	Criação e utilização de funções.
+Parâmetros IN e OUT	Passagem e retorno de parâmetros.
+Estruturas de repetição	Utilização de loops na execução de comandos.
+Parâmetros nomeados	Passagem de argumentos por nome.
+Cursors	Manipulação e processamento de conjuntos de registros.
+Exceptions	Tratamento de erros e exceções.
 📂 Estrutura do repositório
+text
+📦 estudo-plsql
+ ┣ 📜 01-comecando_com_plsql.sql
+ ┣ 📜 02-crud.sql
+ ┣ 📜 03-primeira_procedure.sql
+ ┣ 📜 04-usando_funcoes.sql
+ ┣ 📜 05-parametro_in_out.sql
+ ┣ 📜 06-estrutura_de_repeticao.sql
+ ┣ 📜 07-parametros_nomeados.sql
+ ┣ 📜 08-cursores.sql
+ ┣ 📜 09-exception.sql
+ ┣ 📜 10-exception_2.sql
+ ┗ 📜 README.md
 
-Arquivo	Conteúdo
+📝 Descrição dos arquivos
 
-01-comecando_com_plsql.sql	Introdução e primeiros conceitos de PL/SQL.
-02-crud.sql	Operações de criação, consulta, atualização e exclusão de dados.
-03-primeira_procedure.sql	Criação e execução da primeira Procedure.
-04-usando_funcoes.sql	Criação e utilização de Functions.
-05-parametro_in_out.sql	Utilização de parâmetros IN e OUT.
-06-estrutura_de_repeticao.sql	Estruturas de repetição na linguagem PL/SQL.
-07-parametros_nomeados.sql	Passagem de parâmetros nomeados.
-08-cursores.sql	Utilização e manipulação de Cursors.
-09-exception.sql	Introdução ao tratamento de exceções.
-10-exception_2.sql	Continuação dos estudos sobre Exceptions.
+<details>
+<summary><strong>01 - Começando com PL/SQL</strong></summary>
+
+Introdução à linguagem PL/SQL e aos primeiros conceitos de programação procedural no Oracle.
+
+</details>
+
+<details>
+<summary><strong>02 - CRUD</strong></summary>
+
+Prática das operações fundamentais de manipulação de dados: Create, Read, Update e Delete.
+
+</details>
+
+<details>
+<summary><strong>03 - Primeira Procedure</strong></summary>
+
+Criação e execução de procedimentos armazenados no banco de dados.
+
+</details>
+
+<details>
+<summary><strong>04 - Usando Functions</strong></summary>
+
+Criação e utilização de funções para processamento e retorno de valores.
+
+</details>
+
+<details>
+<summary><strong>05 - Parâmetros IN e OUT</strong></summary>
+
+Utilização de parâmetros para receber informações e retornar resultados em Procedures.
+
+</details>
+
+<details>
+<summary><strong>06 - Estruturas de repetição</strong></summary>
+
+Aplicação de estruturas de repetição para executar blocos de comandos.
+
+</details>
+
+<details>
+<summary><strong>07 - Parâmetros nomeados</strong></summary>
+
+Utilização de parâmetros nomeados na chamada de Procedures e Functions.
+
+</details>
+
+<details>
+<summary><strong>08 - Cursores</strong></summary>
+
+Utilização de cursores para percorrer e processar registros retornados por consultas SQL.
+
+</details>
+
+<details>
+<summary><strong>09 - Exceptions</strong></summary>
+
+Introdução ao tratamento de exceções e erros durante a execução de blocos PL/SQL.
+
+</details>
+
+<details>
+<summary><strong>10 - Exceptions (continuação)</strong></summary>
+
+Continuação dos estudos sobre tratamento de exceções na linguagem PL/SQL.
+
+</details>
 
 🛠️ Tecnologias e ferramentas
 
-Oracle Database: sistema de gerenciamento de banco de dados.
-PL/SQL: linguagem procedural da Oracle.
-SQL: linguagem para manipulação e consulta de dados.
-Oracle SQL Developer: ferramenta para desenvolvimento e execução de scripts SQL.
+<div align="left">
+<img src="https://img.shields.io/badge/Oracle-Database-F80000?style=flat&logo=oracle&logoColor=white" alt="Oracle Database">
+<img src="https://img.shields.io/badge/SQL-PL%2FSQL-blue?style=flat" alt="SQL e PL/SQL">
+<img src="https://img.shields.io/badge/SQL_Developer-Oracle-orange?style=flat&logo=oracle&logoColor=white" alt="Oracle SQL Developer">
+</div>
 
+Oracle Database
+PL/SQL
+SQL
+Oracle SQL Developer
 🎓 Curso de referência
 
 PL/SQL: Domine a linguagem do banco de dados Oracle
-Plataforma: Alura
 
-🚀 Sobre o projeto
+📚 Plataforma: Alura - Curso de Oracle PL/SQL
+
+🚀 Considerações finais
 
 Este repositório faz parte da minha jornada de aprendizado em banco de dados, com foco no desenvolvimento de conhecimentos em SQL e PL/SQL.
 
-Os arquivos contêm exemplos e exercícios práticos utilizados para consolidar os conceitos estudados ao longo do curso.
+Os scripts apresentados representam os conceitos estudados e os exercícios práticos desenvolvidos ao longo do curso.
+
+<div align="center">
+
+💻 Aprendizado contínuo, prática e evolução!
+
+</div>
